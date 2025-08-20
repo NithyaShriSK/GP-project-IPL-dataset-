@@ -60,12 +60,15 @@ Here are 5 sample outputs from the notebook:
 ![Number of batters per each team](images/No_of_batters_in_each_team.png)
 
 3. Teamwise_StikeRate
+
 ![StrikeRate of each team](images/Teamwise_SR.png)
 
 4. Total_50s_per Team
+
 ![Total_50s_per Team](images/Total_50s_by_Team.png)
 
 5. Total_100s_per_team
+
 ![Total_100s_per_team](images/Total_100s_by_Team.png)
 
 📌 Data Overview
