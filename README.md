@@ -1,77 +1,89 @@
-IPL Dataset Analysis – GP Project
+GP-Project-IPL-Dataset
 
-This project analyzes IPL (Indian Premier League) data to extract insights, player performance metrics, and trends using Python libraries such as Pandas, NumPy, and Matplotlib. The dataset primarily contains batting statistics of IPL players for the 2025 season.
+An interactive data analysis project on IPL Batters’ Performance (2025 season).
+This project uses Python and Jupyter Notebook to explore batting data, generate insights, and visualize trends.
 
-📂 Project Structure
-GP-project-IPL-dataset-
-│
-├── IPL2025Batters.csv     # Dataset containing batting stats
-├── main.ipynb             # Jupyter Notebook with analysis & visualizations
-├── requirements.txt       # List of dependencies
-└── README.md              # Project documentation
+📂 Repository Contents
 
-📊 Dataset Overview
+IPL2025Batters.csv – Dataset containing IPL batters’ statistics
 
-The dataset IPL2025Batters.csv includes player-level statistics such as:
+main.ipynb – Jupyter notebook for data loading, cleaning, EDA, and visualization
 
-1.Player Name
+requirements.txt – Python dependencies
 
-2.Matches Played
+images/ – Folder containing output plots used in this README
 
-3.Runs Scored
+⚡ Features
 
-4.Strike Rate
+✔️ Load and explore IPL dataset
+✔️ Perform EDA with pandas, matplotlib, seaborn
+✔️ Generate visualizations (bar charts, scatter plots, histograms, etc.)
+✔️ Insights on batting performance: runs, strike rates, averages
 
-5.Average
+🛠️ Installation
+# Clone the repo
+git clone https://github.com/NithyaShriSK/GP-project-IPL-dataset-.git
+cd GP-project-IPL-dataset-
 
-6.Boundaries (4s and 6s)
+# Create virtual environment
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
 
-7.Contribution % to Team
+# Install dependencies
+pip install -r requirements.txt
 
-🔍 Key Analysis Performed
+# Launch notebook
+jupyter notebook
 
-✔ Data Cleaning & Preprocessing
-✔ Exploratory Data Analysis (EDA)
-✔ Player Performance Ranking (based on runs, strike rate, and contribution %)
-✔ Team-wise contribution calculations
-✔ Visualizations with Matplotlib and Seaborn
+🚀 Usage
 
-📈 Sample Visualizations
+Open main.ipynb
 
-Some example charts generated in this project include:
+Run cells step by step to:
 
-Top 10 run-scorers bar chart
+Load & clean data
 
-Strike rate distribution histogram
+Perform exploratory analysis
 
-Team-wise contribution pie chart
+Generate visualizations
 
-Player impact score rankings
+Interpret results
 
-📦 Requirements
+📊 Example Outputs
 
-The project requires the following Python libraries:
+Here are 5 sample outputs from the notebook:
 
-1.pandas
+1. Highest Runs scored by each team
+!["Highest runs scored by each team"](C:\Users\ganesh\OneDrive\Desktop\AI Workforce\project 4\images\Highest Runs scored by each player.png)
 
-2.numpy
+2. Top 10 Batters by Runs
 
-3.matplotlib
+3. Average Runs vs Matches (Bar Plot)
 
-4.seaborn
+4. Strike Rate vs Runs (Scatter Plot)
 
-(These are already listed in requirements.txt.)
+5. Correlation Heatmap of Batting Stats
 
-🚀 Future Work
+📌 Data Overview
+Column	Description
+Player	Batter’s name
+Matches	Matches played
+Runs	Total runs scored
+StrikeRate	Batting strike rate
+Average	Batting average
 
-Extend dataset with bowling and fielding stats
+(Update based on your dataset columns)
 
-Build predictive models (e.g., player performance forecasting)
+✅ Recommendations
 
-Create an interactive Streamlit/Dash dashboard for IPL insights
+Add .gitignore to exclude venv/
 
-🙌 Acknowledgements
+Provide dataset source info (e.g., Kaggle or official IPL site)
 
-IPL Official Stats – Data source
+Keep adding more visualizations & analysis
 
-Python Libraries – Pandas, NumPy, Matplotlib, Seaborn
+Save all plots into images/ for documentation
+
+📜 License
+
+This project is open-source. You may freely use and modify it for educational purposes.
