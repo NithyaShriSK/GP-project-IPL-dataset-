@@ -54,15 +54,19 @@ Interpret results
 Here are 5 sample outputs from the notebook:
 
 1. Highest Runs scored by each team
-!["Highest runs scored by each team"](C:\Users\ganesh\OneDrive\Desktop\AI Workforce\project 4\images\Highest Runs scored by each player.png)
+![Highest runs scored by each team](images/Highest_Runs_by_Player.png)
 
-2. Top 10 Batters by Runs
+2. Number of Batters per each team
+![Number of batters per each team](images/No_of_batters_in_each_team.png)
 
-3. Average Runs vs Matches (Bar Plot)
+3. Teamwise_StikeRate
+![StrikeRate of each team](images/Teamwise_SR.png)
 
-4. Strike Rate vs Runs (Scatter Plot)
+4. Total_50s_per Team
+![Total_50s_per Team](images/Total_50s_by_Team.png)
 
-5. Correlation Heatmap of Batting Stats
+5. Total_100s_per_team
+![Total_100s_per_team](images/Total_100s_by_Team.png)
 
 📌 Data Overview
 Column	Description
